@@ -20,7 +20,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
 
     const pinNumber = document.getElementById('pin-number').value;
 
-    if(phoneNumber === '1234' && pinNumber === '16247'){
+    if(phoneNumber === '1234' && pinNumber === '1234'){
         console.log('Logged in successful')
         window.location.href = 'js/home.html'
     }else{
